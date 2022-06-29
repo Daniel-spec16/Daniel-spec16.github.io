@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    
+    <div class="d-flex flex-column flex-shrink-0 p-3  text-white bg-dark" style="width: 280px; height:100%;" id="navbar">
+        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+          <svg class="bi pe-none me-2" width="40" height="32"></svg>
+          <span class="fs-4">Danila Larin</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item" id="bio">
+            <a href="index.html" class="nav-link text-white" aria-current="page">
+              <svg class="bi pe-none me-2" width="16" height="16"></svg> 
+              Bio
+            </a>
+          </li>
+          <li class="nav-item" id="projects">
+            <a href="projects.html" class="nav-link active" >
+              <svg class="bi pe-none me-2" width="16" height="16"></svg>
+              Projects
+            </a>
+          </li>
+        </ul>
+        <hr>
+    </div>
+
+<div class="main-content" id="main-content">
+        <div class="project" id="BusStops" hover>
+            <a href="https://github.com/Daniel-spec16/MapAnimation" target="_blank">
+                <img src="bus stop.jpg" alt="NO_IMG">
+            </a>
+        </div>
+        <div class="project" id="Eyes">
+            <a href="https://github.com/Daniel-spec16/Eye-Movement" target="_blank">
+                 <img src="eyes.jpg" alt="NO_IMG">
+            </a>
+        </div>
+        <div class="project" id="PacMan">
+            <a href="https://github.com/Daniel-spec16/PacMen-Factory" target="_blank">
+                <img src="pacman.jpg" alt="NO_IMG">
+            </a>
+        </div>
+
+        <div id="container" class="h-100 w-100 p-5 text-white bg-dark rounded-3">
+            <h2>Description</h2>
+            <p id="description">Hover mouse on the picture to see project's description</p>
+            <button class="btn btn-outline-light" type="button">Click on the pictures to visit github</button>
+        </div>
+
+       
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
